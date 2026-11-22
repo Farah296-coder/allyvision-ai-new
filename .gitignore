@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+outputs/
+outputs_archive_*/
+datasets/raw/**
+!datasets/raw/**/.gitkeep
+datasets/processed/**
+!datasets/processed/**/.gitkeep
+datasets/manifests/*.csv
+datasets/manifests/*.jsonl
+checkpoints/training/**
