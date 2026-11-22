@@ -1,0 +1,22 @@
+# YOLO11 object detection taxonomy. IDs are project-owned and independent of segmentation IDs.
+names:
+  0: person
+  1: car
+  2: bus
+  3: truck
+  4: motorcycle
+  5: bicycle
+  6: auto_rickshaw
+  7: traffic_light
+  8: traffic_sign
+  9: pole
+  10: chair
+  11: table
+  12: fence
+  13: barrier
+  14: animal
+  15: construction_obstacle
+  16: street_vendor_cart
+  17: pothole
+  18: rider
+  19: other_obstacle

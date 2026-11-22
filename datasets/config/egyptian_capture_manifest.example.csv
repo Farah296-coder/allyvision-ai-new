@@ -1,0 +1,2 @@
+image_path,sequence_id,frame_index,camera_setup,camera_height_cm,camera_pitch_deg,resolution,time_of_day,weather,scene_type,privacy_review,consent_basis,license_or_release,annotator,notes
+raw/egyptian/sequence_001/frame_000001.jpg,sequence_001,1,device_prototype,150,-8,1280x720,day,clear,sidewalk_pending,not_reviewed,document_before_use,project_internal,pending,example_only

@@ -1,0 +1,21 @@
+# SegFormer semantic taxonomy; pixel values are IDs, 255 is ignore_index.
+ignore_index: 255
+names:
+  0: road
+  1: sidewalk
+  2: walkable_ground
+  3: crosswalk
+  4: curb
+  5: pothole
+  6: stairs
+  7: building
+  8: wall
+  9: fence
+  10: person
+  11: vehicle
+  12: vegetation
+  13: pole
+  14: traffic_sign
+  15: traffic_light
+  16: other
+  17: rider

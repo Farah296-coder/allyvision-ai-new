@@ -1,0 +1,23 @@
+# Populate segmentation_manifest.csv after sequence splitting and mask conversion.
+manifest: ../manifests/segmentation_manifest.csv
+num_labels: 18
+ignore_index: 255
+class_names:
+  - road
+  - sidewalk
+  - walkable_ground
+  - crosswalk
+  - curb
+  - pothole
+  - stairs
+  - building
+  - wall
+  - fence
+  - person
+  - vehicle
+  - vegetation
+  - pole
+  - traffic_sign
+  - traffic_light
+  - other
+  - rider

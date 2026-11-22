@@ -1,0 +1,81 @@
+# Conversion is by source class name, never by assuming dataset IDs match.
+# null means ignore/unmapped. Detection and semantic mappings are separate tasks.
+bdd100k_detection:
+  pedestrian: person
+  rider: rider
+  car: car
+  truck: truck
+  bus: bus
+  train: other_obstacle
+  motorcycle: motorcycle
+  bicycle: bicycle
+  traffic light: traffic_light
+  traffic sign: traffic_sign
+  motor: motorcycle
+  bike: bicycle
+  auto-rickshaw: auto_rickshaw # absent in BDD; custom Egypt/IDD labels needed
+bdd100k_segmentation:
+  road: road
+  sidewalk: sidewalk
+  building: building
+  wall: wall
+  fence: fence
+  pole: pole
+  traffic light: traffic_light
+  traffic sign: traffic_sign
+  vegetation: vegetation
+  terrain: other # do not infer pedestrian-safe walkability from generic terrain labels
+  person: person
+  rider: rider
+  bicycle: vehicle
+  bus: vehicle
+  car: vehicle
+  motorcycle: vehicle
+  truck: vehicle
+  train: vehicle
+idd_detection:
+  pedestrian: person
+  autorickshaw: auto_rickshaw
+  auto-rickshaw: auto_rickshaw
+  motorcycle: motorcycle
+  traffic sign: traffic_sign
+  traffic light: traffic_light
+idd_segmentation:
+  # IDD label spellings vary by release. Inspect the downloaded release label map first.
+  road: road
+  sidewalk: sidewalk
+  person: person
+  auto-rickshaw: vehicle
+  autorickshaw: vehicle
+cityscapes_segmentation:
+  road: road
+  sidewalk: sidewalk
+  building: building
+  wall: wall
+  fence: fence
+  pole: pole
+  traffic light: traffic_light
+  traffic sign: traffic_sign
+  vegetation: vegetation
+  terrain: other
+  person: person
+  rider: rider
+  car: vehicle
+  truck: vehicle
+  bus: vehicle
+  train: vehicle
+  motorcycle: vehicle
+  bicycle: vehicle
+mapillary_vistas_segmentation:
+  # Version-specific label names: review exact Vistas config before conversion.
+  construction--flat--road: road
+  construction--flat--sidewalk: sidewalk
+  construction--flat--crosswalk-plain: crosswalk
+  construction--flat--curb-cut: curb
+  construction--structure--building: building
+  construction--structure--wall: wall
+  construction--structure--fence: fence
+  nature--vegetation: vegetation
+  human--person: person
+  human--rider: rider
+  object--vehicle: vehicle
